@@ -23,7 +23,8 @@ g.contained circle, rect#rect {
 
 path#interactive {
     fill: #c0c0c0;
-    stroke: #bd250d 4px;
+    stroke: #bd250d;
+    stroke-width: 4px;
 }
 
 path#interactive:hover {
@@ -37,3 +38,4 @@ rect {
 path:nth-last-child(1) {
     stroke: none;
 }
+
